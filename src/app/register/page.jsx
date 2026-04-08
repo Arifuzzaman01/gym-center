@@ -172,7 +172,7 @@ console.log(step)
 
         <div className="mt-8 text-center">
           <p className="text-gray-400 text-sm">
-            Already a member? <Link href="/login" className="text-[#71ac16] font-bold">Login</Link>
+            Already a member? <Link href="/logIn" className="text-[#71ac16] font-bold">Login</Link>
           </p>
         </div>
 
