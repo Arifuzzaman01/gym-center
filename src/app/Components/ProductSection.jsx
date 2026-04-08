@@ -57,9 +57,9 @@ const ProductSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12 px-6 md:px-12 ">
+    <section className="bg-white py-12 px-6  ">
       {/* --- Section Header --- */}
-      <div className="max-w-7xl mx-auto mb-10">
+      <div className=" mb-10">
         <h2 className="text-3xl font-bold text-[#333] mb-2">Our Products</h2>
         <p className="text-gray-500 text-lg">
           Fuel Your Workouts with Protein-Packed Nutrition
@@ -67,7 +67,7 @@ const ProductSection = () => {
       </div>
 
       {/* --- Products Grid --- */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {products.map((product) => (
           <div
             key={product.id}

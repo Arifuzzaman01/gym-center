@@ -2,6 +2,7 @@ import Image from "next/image";
 import GymBanner from "./Components/GymBanner";
 import ProductSection from "./Components/ProductSection";
 import Champion from "./Components/Champion";
+import ClientFeedback from "./Components/ClientFeedback";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       
       <ProductSection />
       <Champion />
+      <ClientFeedback />
     </div>
   );
 }
