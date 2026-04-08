@@ -71,7 +71,7 @@ const ProductSection = () => {
         {products.map((product) => (
           <div
             key={product.id}
-            className="bg-black rounded-2xl p-4 flex flex-col transition-transform duration-300 hover:scale-[1.02] shadow-2xl"
+            className="bg-black rounded-4xl p-4 flex flex-col transition-transform duration-300 hover:scale-[1.02] shadow-2xl"
           >
             {/* Image Container */}
             <div
