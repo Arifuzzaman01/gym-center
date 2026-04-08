@@ -4,7 +4,7 @@ import { IoPlaySharp } from 'react-icons/io5';
 
 const Champion = () => {
   return (
-    <section className="bg-white py-16 px-5 font-sans">
+    <section className="bg-white py-16  font-sans">
       <div className="max-w-7xl mx-auto ">
         {/* Header Section */}
         <div className="mb-10">

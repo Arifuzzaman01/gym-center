@@ -57,7 +57,7 @@ const ProductSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12 px-6  ">
+    <section className="bg-white py-12  ">
       {/* --- Section Header --- */}
       <div className=" mb-10">
         <h2 className="text-3xl font-bold text-[#333] mb-2">Our Products</h2>
@@ -77,9 +77,13 @@ const ProductSection = () => {
             <div
               className={`relative w-full h-fit  rounded-2xl  flex items-center justify-center  `}
             >
-              
-               <Image width={350} height={400} src={product.image} alt={product.name} className="rounded-2xl cover" />
-              
+              <Image
+                width={350}
+                height={400}
+                src={product.image}
+                alt={product.name}
+                className="rounded-2xl cover"
+              />
             </div>
 
             {/* Content Details */}

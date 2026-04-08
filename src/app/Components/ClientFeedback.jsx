@@ -41,7 +41,7 @@ const ClientFeedback = () => {
       role: "Ceo Of Miko",
       title: "The Best Training Program!",
       comment:
-        "The boxing program helped me build confidence, strength, and endurance...",
+        "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
       rating: 4.5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Stive4",
     },
@@ -51,7 +51,7 @@ const ClientFeedback = () => {
       role: "Ceo Of Miko",
       title: "The Best Training Program!",
       comment:
-        "The boxing program helped me build confidence, strength, and endurance...",
+        "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
       rating: 4.5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Stive5",
     },
@@ -61,14 +61,14 @@ const ClientFeedback = () => {
       role: "Ceo Of Miko",
       title: "The Best Training Program!",
       comment:
-        "The boxing program helped me build confidence, strength, and endurance...",
+        "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
       rating: 4.5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Stive6",
     },
   ];
 
   return (
-    <section className="bg-[#f3f4f6] py-16 px-6 ">
+    <section className="bg-[#f3f4f6] py-16 px-6 rounded-3xl">
       <div className="">
         {/* Header */}
         <div className="mb-12">
@@ -92,7 +92,8 @@ const ClientFeedback = () => {
                 <h3 className="text-white text-xl font-bold mb-4">
                   {item.title}
                 </h3>
-                <p className="text-gray-400 text-sm leading-relaxed mb-8">
+                <p className="text-gray-400 text-sm leading-relaxed mb-8 line-clamp-4 text-justify">
+               
                   {item.comment}
                 </p>
               </div>
